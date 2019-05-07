@@ -1,12 +1,12 @@
 #taking input
-fName = input(print("Enter your first name : "))
-lName = input(print("Enter your last name : "))
-Class = input(print("Enter your class and section : "))
-Phy_marks = float(input(print("Enter the marks of Physics : ")))
-Maths_marks = float(input(print("Enter the marks of Mathematics : ")))
-Isl_marks = float(input(print("Enter the marks of Islamiat : ")))
-Eng_marks = float(input(print("Enter the marks of English : ")))
-Urdu_marks = float(input(print("Enter the marks of Urdu : ")))
+fName = input("Enter your first name : ")
+lName = input( "Enter your last name : ")
+Class = input( "Enter your class and section : ")
+Phy_marks = float(input( "Enter the marks of Physics : "))
+Maths_marks = float(input( "Enter the marks of Mathematics : "))
+Isl_marks = float(input( "Enter the marks of Islamiat : "))
+Eng_marks = float(input( "Enter the marks of English : "))
+Urdu_marks = float(input( "Enter the marks of Urdu : "))
 
 #calculations
 total_Marks = Phy_marks + Maths_marks + Urdu_marks + Isl_marks + Eng_marks
